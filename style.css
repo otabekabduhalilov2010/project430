@@ -577,9 +577,14 @@ margin-top: 40px;
 
 .wrapper_colleg {
 display: grid;
-grid-template-columns: 1fr 1fr 1fr ;
+grid-template-columns: 1fr 1fr ;
 gap: 40px;
 margin-bottom: 30px;
+
+>img {
+    width: 100%;
+    
+}
 
 
 @media (max-width: 850px) {
@@ -587,37 +592,26 @@ margin-bottom: 30px;
 }
 
 
-img {
-    @media (max-width: ) {
-        
-    }
-}
+
 
 }
 
 
 .card {
     display: flex;
-    padding-left: 10px;
+   padding: 20px;
     width: 600px;
     img {
         border: 2px solid black;
-        margin-right: 20px;
-        object-fit: cover;
+        
             
     }
     justify-content: end;
     margin-right: 23px;
      align-items: center;
 
-    h1 {
-        text-transform: uppercase;
-    }
-
     p {
         color: gray;
-        /* font-size: 16px; */
-        /* font-size: clamp(1rem, 0.917rem + 0.33vw, 1.25rem); */
     }
 
 &:hover {
@@ -632,6 +626,7 @@ color: rgb(239, 81, 133);
     grid-template-columns: 1fr ;
     flex-direction: column;
     text-align: center;
+    width: 400px;
 }
   
 }
@@ -640,10 +635,9 @@ color: rgb(239, 81, 133);
     display: grid;
     flex-direction: column;
     gap: 40px;
+}
 
-
-    
-
-   
+.incubator {
+    width: 100%;
 }
 
